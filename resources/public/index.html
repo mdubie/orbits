@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+  background: #EEE;
+}
+#game-canvas {
+  padding: 10px;
+  background: #FFF;
+}
+</style>
+</head>
+<body>
+<center>
+    <table>
+        <tr>
+            <td>
+                <canvas id="game-canvas" style="background: url('./img/starry_background.jpg')"></canvas>
+            </td>
+            <td valign=top>
+                <div id="side-bar">
+                    <canvas id="next-canvas"></canvas>
+                    <div id="score"></div>
+                    <div id="level"></div>
+                    <div id="lines"></div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</center>
+
+<script src="jquery.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
