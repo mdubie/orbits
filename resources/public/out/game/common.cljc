@@ -1,12 +1,16 @@
 (ns game.common
   (:require [game.constants :as constants]))
 
+
+(defn add-vectors
+  [[x1 y1] [x2 y2]]
+  [(+ x1 x2)
+   (+ y1 y2)])
+
 (defn sum-vectors
   [vectors]
   (reduce
-   (fn [[sum-x sum-y] [x y]]
-     [(+ sum-x x)
-      (+ sum-y y)])
+   add-vectors
    [0.0 0.0]
    vectors))
 
@@ -24,17 +28,17 @@
       rad)
    (* 2 Math/PI)))
 
-(defn p1+p2->d
+(defn b1+b2->d
   [{[x1 y1] :s}
    {[x2 y2] :s}]
   (Math/sqrt (+ (Math/pow (- x2 x1) 2)
                 (Math/pow (- y2 y1) 2))))
 
-(defn p1+p2->a
-  [{[x1 y1] :s m1 :mass :as p1}
-   {[x2 y2] :s m2 :mass :as p2}]
+(defn b1+b2->a
+  [{[x1 y1] :s m1 :mass :as b1}
+   {[x2 y2] :s m2 :mass :as b2}]
   (let [c 0.00001
-        d (p1+p2->d p1 p2)
+        d (b1+b2->d b1 b2)
         grav-f (/ (* c m1 m2)
                   (Math/pow d 2))
         [ux uy] [(/ (- x2 x1) d)
@@ -45,15 +49,19 @@
 (defn p1+p2->collision?
   [{r1 :r :as p1}
    {r2 :r :as p2}]
-  (< (p1+p2->d p1 p2)
+  (< (b1+b2->d p1 p2)
      (+ r1 r2)))
 
-(defn p1+p2->theta
+(defn b1+b2->theta
   [{[x1 y1] :s}
    {[x2 y2] :s}]
   (Math/atan2
    (- y2 y1)
    (- x2 x1)))
+
+(defn theta->unit-vector
+  [theta]
+  [(Math/cos theta) (- (Math/sin theta))])
 
 (defn r1+r2->r
   [r1 r2]

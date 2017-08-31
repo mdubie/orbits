@@ -11,10 +11,6 @@
 
 (def $ js/jQuery)
 
-;;------------------------------------------------------------
-;; STATE OF THE GAME
-;;------------------------------------------------------------
-
 (def state
   (atom nil))
 
@@ -27,30 +23,32 @@
   (reset! state {:game-speed 10
                  :t0 (time-now)
                  :canvas-size {:width 1000 :height 1000}
-                 :planets (initial-system/rand-centered-system)}))
+                 :planets (initial-system/structured-centered-system)
+                 :ships [initial-system/test-ship]}))
+
+;; ships vs planets
+  ;; ships mass have negligible effect on planets
+  ;; ships have different collisions than planets
+  ;; ships are rendered differently
+  ;; ships equations of motion are the same
+  ;; some shared properties
 
 ;; :planets (mechanics/rand-centered-system)
 ;; :planets mechanics/three-body-problem-system}))
 
-;; (mechanics/rand-system)
-
 ;;------------------------------------------------------------
-;; STATE TRANSITION
+;; time step
 ;;------------------------------------------------------------
 
 (def gravity-chan (a/chan 1 (dedupe)))
 
 (defn apply-gravity!
   []
-  ;; (mechanics/orbital-velocity (:planets @state))
-  (swap! state assoc :dt (- (time-now) (:t0 @state)))
+  (swap! state assoc :dt (/ (- (time-now) (:t0 @state))
+                            (:game-speed @state)))
   (swap! state assoc :t0 (time-now))
-  (swap! state assoc :t-calc0 (time-now))
-  (swap! state update :planets mechanics/update-planets (/ (:dt @state) (:game-speed @state)))
-  (swap! state assoc :t-calc1 (time-now)))
-  ;; (println "calc loop" (- (:t-calc1 @state) (:t-calc0 @state))))
-  ;; (println "calc loop" (- (:t-calc1 @state) (:t-calc0 @state))))
-
+  (swap! state update :planets mechanics/update-planets (:dt @state))
+  (swap! state update :ships mechanics/update-ships (:planets @state) (:dt @state)))
 
 (defn go-go-gravity!
   []
@@ -60,7 +58,7 @@
     (recur)))
 
 ;;------------------------------------------------------------
-;; STATE MONITOR
+;; draw loop
 ;;------------------------------------------------------------
 
 (defn make-redraw-chan
@@ -76,18 +74,14 @@
 (defn go-go-draw!
   []
   (let [redraw-chan (make-redraw-chan)]
-    (go-loop [system nil]
+    (go-loop []
+      ;;TODO maybe readd decoupling of game loop and drawing
       (a/<! redraw-chan)
-      (let [new-system (:planets @state)]
-        (when (not= system new-system)
-          (swap! state assoc :t-draw0 (time-now))
-          (paint/draw-system! "game-canvas" (select-keys @state [:planets :canvas-size]))
-          (swap! state assoc :t-draw1 (time-now)))
-          ;; (println "draw loop" (- (:t-draw1 @state) (:t-draw0 @state))))
-        (recur new-system)))))
+      (paint/draw-system! "game-canvas" (select-keys @state [:ships :planets :canvas-size]))
+      (recur))))
 
 ;;------------------------------------------------------------
-;; Entry Point
+;; init
 ;;------------------------------------------------------------
 
 (defn init []

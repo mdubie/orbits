@@ -1,12 +1,13 @@
 (ns game.mechanics
   (:require [game.common :as common]))
 
-;; planet dynamics
+;;------------------------------------------------------------
+;; body dynamics (planets + ships)
+;;------------------------------------------------------------
 
-;; r * t = d
-(defn update-planet-position
-  [{:keys [v s] :as planet} dt]
-  (-> planet
+(defn update-body-position
+  [{:keys [v s] :as body} dt]
+  (-> body
       (update :path conj s)
       (update :s
               (fn [[sx sy] [vx vy]]
@@ -14,24 +15,25 @@
                  (+ sy (* vy dt))])
               v)))
 
-;; v1 = v0 + a * dt
-(defn update-planet-velocity
-  [{:keys [a] :as planet} dt]
-  (update planet :v
+(defn update-body-velocity
+  [{:keys [a] :as body} dt]
+  (update body :v
           (fn [[vx vy] [ax ay]]
             [(+ vx (* ax dt))
              (+ vy (* ay dt))])
           a))
 
-(defn update-planet-acceleration
-  [{:keys [uuid] :as p} planets dt]
-  (assoc p :a
+(defn update-body-acceleration
+  [body planets dt]
+  (assoc body :a
     (->> planets
-         (remove #(= uuid (:uuid %)))
-         (map #(common/p1+p2->a p %))
+         (remove #(= body %))
+         (map #(common/b1+b2->a body %))
          (common/sum-vectors))))
 
-;; collisions
+;;------------------------------------------------------------
+;; planet collisions
+;;------------------------------------------------------------
 
 (defn merge-color
   [c1 m1 c2 m2]
@@ -85,7 +87,6 @@
         (merge-planets p2 p1)))))
 
 (defn planets->collided-planets
-  "Takes all the planets and returns only those that have collided"
   [planets]
   (filterv
    (fn [{:keys [uuid r] :as p}]
@@ -96,70 +97,67 @@
           (some?)))
    planets))
 
-(defn handle-collisions
+(defn handle-planet-collisions
   [planets]
   (let [collided-planets (planets->collided-planets planets)]
     ;; TODO handle complex collissions
-    ;; (assert (<= (count collided-planets) 2) "handle more complicated collissions")
     (if (=  2 (count collided-planets))
       (planets->remaining-planets collided-planets planets)
       planets)))
 
+;;------------------------------------------------------------
+;; update planets root
+;;------------------------------------------------------------
+
 (defn update-planets
   [planets dt]
   (->> planets
-       (handle-collisions)
-       (mapv #(update-planet-acceleration % planets dt))
-       ;; (mapv update-manual-planet-acceleration)
-       (mapv #(update-planet-velocity % dt))
-       (mapv #(update-planet-position % dt))))
+       (handle-planet-collisions)
+       (mapv #(update-body-acceleration % planets dt))
+       (mapv #(update-body-velocity % dt))
+       (mapv #(update-body-position % dt))))
 
-;; control
+;;------------------------------------------------------------
+;; ship dynamics
+;;------------------------------------------------------------
 
-(defn planet->orthagonality-metric
-  [{[ax ay] :a [vx vy] :v}]
-  (let [direction-a (Math/atan2 ay ax)
-        direction-v (Math/atan2 vy vx)]
-    (- (mod
-        (+ (* 2 Math/PI)
-           (- direction-a direction-v))
-        (* 2 Math/PI))
-       (/ Math/PI 2))))
+;; (defn planet->orthagonality-metric
+;;   [{[ax ay] :a [vx vy] :v}]
+;;   (let [direction-a (Math/atan2 ay ax)
+;;         direction-v (Math/atan2 vy vx)]
+;;     (- (mod
+;;         (+ (* 2 Math/PI)
+;;            (- direction-a direction-v))
+;;         (* 2 Math/PI))
+;;        (/ Math/PI 2))))
 
-(defn planet-manual-acceleration
-  [{[vx vy] :v :as p}]
-  (let [o (planet->orthagonality-metric p)]
-    (update p :a
-            (fn [[ax ay]]
-              [(- ax (* o vx))
-               (- ay (* o vy))]))))
+;; ;; assume clockwise for now
+;; (defn planet->sun-orthagonality-metric
+;;   [p1 {[vx2 vy2] :v [ax2 ay2] :a :as p2}]
+;;   (let [p1->p2-direction (common/abs-rad (common/b1+b2->theta p1 p2))
+;;         p2-target-velocity-direction (common/abs-rad (+ (/ Math/PI 2) p1->p2-direction))
+;;         p2-target-acceleration-direction (common/abs-rad (+ Math/PI p1->p2-direction))
+;;         p2-actual-acceleration-direction (common/abs-rad (Math/atan2 ay2 ax2))
+;;         p2-actual-velocity-direction (common/abs-rad (Math/atan2 vy2 vx2))]))
+;;     ;; (println (- p2-actual-velocity-direction p2-target-velocity-direction))))
 
-(defn update-manual-planet-acceleration
-  [p]
-  (if (= 124 (:uuid p))
-    (planet-manual-acceleration p)
-    p))
+(defn update-thrust-acceleration
+  [{[ax ay] :a :keys [mass theta a] :as ship} dt]
+  (let [[ux uy] (common/theta->unit-vector theta)
+        ;;TODO calculate required thrust and theta here
+        thrust 1.0
+        thrust-c 0.000001
+        thrust-a [(/ (* ux thrust thrust-c) mass)
+                  (/ (* uy thrust thrust-c) mass)]]
+    (-> ship
+        (assoc :thrust thrust)
+        (update :a common/add-vectors thrust-a))))
 
-;; assume clockwise for now
-(defn planet->sun-orthagonality-metric
-  [p1 {[vx2 vy2] :v [ax2 ay2] :a :as p2}]
-  (let [p1->p2-direction (common/abs-rad (common/p1+p2->theta p1 p2))
 
-        p2-target-velocity-direction (common/abs-rad (+ (/ Math/PI 2) p1->p2-direction))
-        p2-target-acceleration-direction (common/abs-rad (+ Math/PI p1->p2-direction))
-
-        p2-actual-acceleration-direction (common/abs-rad (Math/atan2 ay2 ax2))
-        p2-actual-velocity-direction (common/abs-rad (Math/atan2 vy2 vx2))]))
-
-    ;; (println (- p2-actual-velocity-direction p2-target-velocity-direction))))
-
-(defn orbital-velocity
-  [planets]
-  (let [p1 (->> planets
-                (filter #(= 123 (:uuid %)))
-                (first))
-        p2 (->> planets
-                (filter #(= 124 (:uuid %)))
-                (first))]
-    (println (common/p1+p2->d p1 p2))))
-    ;; (planet->sun-orthagonality-metric p1 p2)))
+(defn update-ships
+  [ships planets dt]
+  (->> ships
+       (mapv #(update-body-acceleration % planets dt))
+       (mapv #(update-thrust-acceleration % dt))
+       (mapv #(update-body-velocity % dt))
+       (mapv #(update-body-position % dt))))

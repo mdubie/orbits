@@ -1,12 +1,22 @@
-(ns game.paint)
-
-;;------------------------------------------------------------
-;; DRAWING
-;;------------------------------------------------------------
+(ns game.paint
+  (:require [game.common :as common]
+            [game.constants :as constants]))
 
 (defn by-id
   [id]
   (.getElementById js/document id))
+
+(defn draw-path-helper
+  [ctx path]
+  (doseq [[x y] path]
+    (.lineTo ctx x y)))
+
+(defn rotate-helper
+  [ctx theta x y]
+  (doto ctx
+    (.translate x y)
+    (.rotate (+ (- theta) (* Math/PI 0.5)))
+    (.translate (- x) (- y))))
 
 (defn size-canvas!
   "Set the size of the canvas."
@@ -23,7 +33,7 @@
     (.strokeText (str "p: " uuid) (+ x r 3) (+ y 20))
     (.strokeText (str "m: " mass) (+ x r 3) (+ y 10))))
 
-(defn draw-planet-acceleration-vectors!
+(defn draw-acceleration-vectors!
   [ctx {[ax ay] :a [x y] :s :keys [r color uuid]}]
   (doto ctx
     (aset "strokeStyle" "#FFF")
@@ -33,7 +43,7 @@
              (+ y (* 2000 ay)))
     (.stroke)))
 
-(defn draw-planet-velocity-vectors!
+(defn draw-velocity-vectors!
   [ctx {[x y] :s [vx vy] :v :keys [r color uuid]}]
   (doto ctx
     (aset "strokeStyle" "#AAA")
@@ -43,16 +53,15 @@
              (+ y (* 30 vy)))
     (.stroke)))
 
-(defn draw-planet-path!
+(defn draw-path!
   [ctx {:keys [path]}]
-  (let [[x y] (first path)])
-  (doto ctx
-    (aset "strokeStyle" "#555")
-    (.beginPath)
-    (.moveTo x y))
-  (doseq [[x y] path]
-    (.lineTo ctx x y))
-  (.stroke ctx))
+  (let [[x y] (first path)]
+    (doto ctx
+      (aset "strokeStyle" "#555")
+      (.beginPath)
+      (.moveTo x y)
+      (draw-path-helper path)
+      (.stroke))))
 
 (defn draw-planet!
   [ctx {[x y] :s gm :gradient-magnitude [c1 c2 c3] :colors :keys [r gradient-direction]}]
@@ -71,16 +80,75 @@
       (.fill)
       (.stroke))))
 
+(defn draw-ship-label!
+  [ctx {[x y] :s :keys [uuid]}]
+  (doto ctx
+    (aset "font" "12px Arial")
+    (aset "strokeStyle" "#555")
+    (.strokeText (str "s: " uuid) (+ x 10) (+ y 10))))
+
+(def ship-path
+  [[2 -3]
+   [4 4]
+   [3 5]
+   [-3 5]
+   [-4 4]
+   [-2 -3]])
+
+(defn draw-ship!
+  [ctx {[x y] :s :keys [s theta]}]
+  (doto ctx
+    (.save)
+    (aset "fillStyle" "#FFF")
+    (rotate-helper theta x y)
+    (.beginPath)
+    (.moveTo (+ x 0) (+ y -5))
+    (draw-path-helper (map #(common/add-vectors s %) ship-path))
+    (.closePath)
+    (.fill)
+    (.restore)))
+
+(defn thrust-path
+  [thrust]
+  (mapv
+   (fn [[x y]]
+     [x (* thrust y)])
+   [[1 10]
+    [3 12]
+    [0 30]
+    [-3 12]
+    [-1 10]]))
+
+(defn draw-ship-thrust!
+  [ctx {[x y] :s :keys [s theta thrust]}]
+  (doto ctx
+    (.save)
+    (aset "fillStyle" "#F80")
+    (rotate-helper theta x y)
+    (.beginPath)
+    (.moveTo (+ x 0) (+ y 5))
+    (draw-path-helper (map #(common/add-vectors s %) (thrust-path thrust)))
+    (.closePath)
+    (.fill)
+    (.restore)))
+
 (defn draw-system!
   "Draw the given board to the canvas."
-  [id {:keys [planets]}]
+  [id {:keys [planets ships]}]
   (let [canvas (by-id id)
         ctx (.getContext canvas "2d")]
     (.clearRect ctx 0 0 1000 1000)
     (doseq [p planets]
       (draw-planet! ctx p)
       (draw-planet-label! ctx p)
-      (draw-planet-acceleration-vectors! ctx p)
-      (draw-planet-velocity-vectors! ctx p)
-      (draw-planet-path! ctx p))
+      (draw-acceleration-vectors! ctx p)
+      (draw-velocity-vectors! ctx p)
+      (draw-path! ctx p))
+    (doseq [s ships]
+      (draw-ship! ctx s)
+      (draw-ship-thrust! ctx s)
+      (draw-ship-label! ctx s)
+      (draw-acceleration-vectors! ctx s)
+      (draw-velocity-vectors! ctx s)
+      (draw-path! ctx s))
     nil))

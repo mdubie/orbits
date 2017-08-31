@@ -1,6 +1,10 @@
 (ns game.initial-system
   (:require [game.constants :as constants]))
 
+;;------------------------------------------------------------
+;; planets
+;;------------------------------------------------------------
+
 (defn rand-color
   []
   (str "#" (apply str (repeatedly 3 #(rand-nth constants/colors)))))
@@ -63,8 +67,8 @@
     :mass (inc (rand-int 1000))
     :path []
     :r (+ 5 (rand-int 10))
-    :s [500.0 800.0]
-    :v [-0.5 0.0]
+    :s [450.0 500.0]
+    :v [0.0 -1.3]
     :a [0.0 0.0]}
    {:uuid 125
     :colors [(rand-color) (rand-color) (rand-color)]
@@ -73,8 +77,8 @@
     :mass (inc (rand-int 1000))
     :path []
     :r (+ 5 (rand-int 10))
-    :s [500.0 300.0]
-    :v [1.0 0.0]
+    :s [400.0 500.0]
+    :v [0.0 -1.0]
     :a [0.0 0.0]}
    {:uuid 126
     :colors [(rand-color) (rand-color) (rand-color)]
@@ -83,28 +87,38 @@
     :mass (inc (rand-int 1000))
     :path []
     :r (+ 5 (rand-int 10))
-    :s [600.0 500.0]
-    :v [0.0 1.0]
+    :s [350.0 500.0]
+    :v [0.0 -0.8]
     :a [0.0 0.0]}
    {:uuid 127
     :colors [(rand-color) (rand-color) (rand-color)]
     :gradient-magnitude (inc (+ 5 (rand-int 10)))
     :gradient-direction (rand-int 3)
-    :mass 5000
+    :mass (inc (rand-int 1000))
+    :path []
+    :r (+ 5 (rand-int 10))
+    :s [300.0 500.0]
+    :v [0.0 -0.7]
+    :a [0.0 0.0]}
+   {:uuid 128
+    :colors [(rand-color) (rand-color) (rand-color)]
+    :gradient-magnitude (inc (+ 5 (rand-int 10)))
+    :gradient-direction (rand-int 3)
+    :mass (inc (rand-int 1000))
+    :path []
+    :r (+ 5 (rand-int 10))
+    :s [200.0 500.0]
+    :v [0.0 -0.6]
+    :a [0.0 0.0]}
+   {:uuid 129
+    :colors [(rand-color) (rand-color) (rand-color)]
+    :gradient-magnitude (inc (+ 5 (rand-int 10)))
+    :gradient-direction (rand-int 3)
+    :mass 50000
     :path []
     :r 4
-    :s [300.0 500.0]
-    :v [0.0 -1.0]
-    :a [0.0 0.0]}
-   {:uuid 127
-    :colors [(rand-color) (rand-color) (rand-color)]
-    :gradient-magnitude (inc (+ 5 (rand-int 10)))
-    :gradient-direction (rand-int 3)
-    :mass 1
-    :path []
-    :r 1
-    :s [295.0 500.0]
-    :v [0.0 -1.2]
+    :s [100.0 500.0]
+    :v [0.0 -0.5]
     :a [0.0 0.0]}])
 
 (def three-body-problem-system
@@ -129,3 +143,17 @@
     :s [500.0 300.0]
     :v [1.5 -1.0]
     :a [0.0 0.0]}])
+
+;;------------------------------------------------------------
+;; ships
+;;------------------------------------------------------------
+
+(def test-ship
+  {:uuid 200
+   :mass 0.001
+   :theta (* Math/PI 1.2)
+   :path []
+   :s [375.0 500.0]
+   :v [0.0 -1.0]
+   :thrust 1.0
+   :a [0.0 0.0]})
