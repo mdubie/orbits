@@ -5,9 +5,15 @@
 body {
   background: #EEE;
 }
-#game-canvas {
+#stacked-canvas {
   padding: 10px;
   background: #FFF;
+}
+
+#game-canvas, #path-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 </style>
 </head>
@@ -15,8 +21,9 @@ body {
 <center>
     <table>
         <tr>
-            <td>
+            <td "id"="stacked-canvas" >
                 <canvas id="game-canvas" style="background: url('./img/starry_background.jpg')"></canvas>
+                <canvas id="path-canvas"></canvas>
             </td>
             <td valign=top>
                 <div id="side-bar">

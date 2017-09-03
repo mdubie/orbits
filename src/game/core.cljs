@@ -1,22 +1,26 @@
 (ns ^:figwheel-always game.core
-  (:require-macros
-    [cljs.core.async.macros :refer [go go-loop alt!]])
   (:require
     [game.mechanics :as mechanics]
     [game.initial-system :as initial-system]
-    [game.paint :as paint]
-    [cljs.core.async :as a]))
+    [game.paint :as paint]))
 
 (enable-console-print!)
 
 (def $ js/jQuery)
 
-(def state
-  (atom nil))
-
 (defn time-now
   []
   (.now (aget js/window "performance")))
+
+(defn start-benchmark
+  [name]
+  (swap! state assoc name (time-now)))
+
+(defn end-benchmark
+  [name]
+  (println (str name) (- (time-now) (get @state name))))
+
+(def state (atom nil))
 
 (defn init-state!
   []
@@ -26,22 +30,6 @@
                  :planets (initial-system/structured-centered-system)
                  :ships [initial-system/test-ship]}))
 
-;; ships vs planets
-  ;; ships mass have negligible effect on planets
-  ;; ships have different collisions than planets
-  ;; ships are rendered differently
-  ;; ships equations of motion are the same
-  ;; some shared properties
-
-;; :planets (mechanics/rand-centered-system)
-;; :planets mechanics/three-body-problem-system}))
-
-;;------------------------------------------------------------
-;; time step
-;;------------------------------------------------------------
-
-(def gravity-chan (a/chan 1 (dedupe)))
-
 (defn apply-gravity!
   []
   (swap! state assoc :dt (/ (- (time-now) (:t0 @state))
@@ -50,44 +38,54 @@
   (swap! state update :planets mechanics/update-planets (:dt @state))
   (swap! state update :ships mechanics/update-ships (:planets @state) (:dt @state)))
 
-(defn go-go-gravity!
+(defn rotate!
+  [direction]
+  (swap! state update :ships mechanics/rotate-ship! direction))
+
+(defn thrust!
+  [value]
+  (swap! state update :ships mechanics/thrust-ship! value))
+
+(def key-names {37 :left
+                38 :up
+                39 :right})
+
+(defn add-key-events!
   []
-  (go-loop []
-    (apply-gravity!)
-    (a/<! (a/timeout (:game-speed @state)))
-    (recur)))
+  (let [key-name #(-> % .-keyCode key-names)
+        key-down (fn [e]
+                   (when (#{:left :right :up} (key-name e))
+                     (.preventDefault e)
+                     (case (key-name e)
+                       :left  (rotate! 1)
+                       :up    (thrust! 1)
+                       :right (rotate! -1)
+                       nil)))
+        key-up (fn [e]
+                 (when (#{:left :right :up} (key-name e))
+                   (.preventDefault e)
+                   (case (key-name e)
+                     :left  (rotate! 0)
+                     :up    (thrust! 0)
+                     :right (rotate! 0)
+                     nil)))]
+    (.addEventListener js/window "keydown" key-down)
+    (.addEventListener js/window "keyup" key-up)))
 
-;;------------------------------------------------------------
-;; draw loop
-;;------------------------------------------------------------
-
-(defn make-redraw-chan
+(defn game-loop
   []
-  (let [redraw-chan (a/chan)
-        request-anim #(.requestAnimationFrame js/window %)]
-    (letfn [(trigger-redraw []
-              (a/put! redraw-chan 1)
-              (request-anim trigger-redraw))]
-      (request-anim trigger-redraw)
-      redraw-chan)))
+  (.setInterval js/window apply-gravity! 1))
 
-(defn go-go-draw!
+(defn render-loop
   []
-  (let [redraw-chan (make-redraw-chan)]
-    (go-loop []
-      ;;TODO maybe readd decoupling of game loop and drawing
-      (a/<! redraw-chan)
-      (paint/draw-system! "game-canvas" (select-keys @state [:ships :planets :canvas-size]))
-      (recur))))
-
-;;------------------------------------------------------------
-;; init
-;;------------------------------------------------------------
+  (paint/draw-system! (select-keys @state [:ships :planets]))
+  (.requestAnimationFrame js/window render-loop))
 
 (defn init []
   (init-state!)
-  (paint/size-canvas! "game-canvas" (:canvas-size @state))
-  (go-go-gravity!)
-  (go-go-draw!))
+  (paint/setup-stacked-canvas! (:canvas-size @state))
+  (game-loop)
+  (render-loop)
+  (add-key-events!))
 
 ($ init)

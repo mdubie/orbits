@@ -13212,3 +13212,2678 @@ notifying browser that file changed:  /game/mechanics.js
 [0mCompiling "resources/public/game.js" from ["src"]...
 [32mSuccessfully compiled "resources/public/game.js" in 0.274 seconds.[0m
 notifying browser that file changed:  /game/mechanics.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.145 seconds.[0m
+notifying browser that file changed:  resources/public/out/goog/deps.js
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/hard-drop! at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/try-rotate! at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 106 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 106 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 107 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 107 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/toggle-pause-game! at line 108 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.254 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/chan at line 77 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/chan at line 78 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.242 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/chan at line 77 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/chan at line 78 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.317 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/chan at line 77 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/chan at line 78 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.265 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var cljs.core.async/dedupe at line 77 src/game/core.cljs
+WARNING: Use of undeclared Var cljs.core.async/dedupe at line 78 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.506 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var cljs.core.async/dedupe at line 77 src/game/core.cljs
+WARNING: Use of undeclared Var cljs.core.async/dedupe at line 78 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.361 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.349 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.341 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.346 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.347 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.329 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.419 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.389 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.337 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.355 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.35 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.348 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.332 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.335 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.335 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.337 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.308 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/dedup at line 77 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/dedup at line 78 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.363 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/dedup at line 77 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/dedup at line 78 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.359 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/dedup at line 77 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/dedup at line 78 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.364 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.338 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.348 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.349 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.364 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 100 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 101 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.342 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 100 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 101 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.338 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 100 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 101 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.347 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 100 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 101 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.349 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 100 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 101 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.338 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 100 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 101 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.36 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 100 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 101 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.331 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 99 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.338 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.333 seconds.[0m
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.103 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.33 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.329 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.33 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.327 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.328 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.349 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 97 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 120 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.357 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 78 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 81 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 100 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 123 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.382 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 100 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 123 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.359 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 99 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 100 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 122 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.356 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 98 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 120 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.346 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 88 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 120 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.339 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 88 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 121 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.354 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 88 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 121 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.356 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 88 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 121 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.351 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 88 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Wrong number of args (2) passed to game.core/user-input-loop! at line 121 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.35 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 88 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.334 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 88 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 89 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 90 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.322 seconds.[0m
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.103 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.259 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.266 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.258 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.272 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var cljs.core.async/>!! at line 106 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.282 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.276 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.267 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.274 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.279 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.325 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.327 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.255 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/user-input-loop!rotate-chan at line 120 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.286 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.285 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.273 seconds.[0m
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.113 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.254 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.272 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.323 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.263 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.264 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.262 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/loaded at line 84 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.279 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.25 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/hard-drop! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/try-rotate! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 101 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 101 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 102 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 102 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 103 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 103 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/toggle-pause-game! at line 104 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.425 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/hard-drop! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/try-rotate! at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 102 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 102 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 103 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 103 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/toggle-pause-game! at line 105 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.425 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/hard-drop! at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/try-rotate! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 103 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 103 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/toggle-pause-game! at line 106 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.432 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/hard-drop! at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/try-rotate! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 103 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 103 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/toggle-pause-game! at line 106 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.428 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/hard-drop! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/try-rotate! at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 106 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 106 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/toggle-pause-game! at line 107 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.425 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/hard-drop! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/try-rotate! at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 106 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 106 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/toggle-pause-game! at line 107 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.447 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/put! at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 94 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 95 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 96 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/hard-drop! at line 97 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/try-rotate! at line 98 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-down-chan at line 104 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-left-chan at line 105 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/put! at line 106 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/move-right-chan at line 106 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/toggle-pause-game! at line 107 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.433 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: Unmatched delimiter ] on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 101, column 48
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.231 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.245 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.238 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.244 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.242 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.242 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.139 seconds.[0m
+notifying browser that file changed:  resources/public/out/goog/deps.js
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.318 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.321 seconds.[0m
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.138 seconds.[0m
+notifying browser that file changed:  resources/public/out/goog/deps.js
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.318 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.116 seconds.[0m
+notifying browser that file changed:  resources/public/out/goog/deps.js
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.339 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.324 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.255 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.247 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.272 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.306 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.281 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.299 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.266 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.25 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.287 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.286 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.239 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.248 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.248 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.296 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.298 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.243 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.258 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.312 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.31 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.256 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.mechanics/rotate-ship! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/thrust! at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/rotate-ship! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/rotate-ship! at line 100 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/thrust! at line 101 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/rotate-ship! at line 102 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.34 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.mechanics/rotate-ship! at line 91 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/thrust-ship! at line 92 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/rotate-ship! at line 93 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/rotate-ship! at line 100 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/thrust-ship! at line 101 src/game/core.cljs
+WARNING: Use of undeclared Var game.mechanics/rotate-ship! at line 102 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.337 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.301 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.272 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.263 seconds.[0m
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.096 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.272 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.271 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.255 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.254 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: EOF while reading, starting at line 87 and column 20 on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 128, column 1
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: EOF while reading, starting at line 87 and column 20 on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 128, column 1
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.229 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.248 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.284 seconds.[0m
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.126 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.264 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.242 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.24 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.229 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.231 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.247 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 91, column 29
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 91, column 29
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: Unmatched delimiter ) on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 91, column 29
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.25 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.248 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.25 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.315 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.283 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.298 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.197 seconds.[0m
+notifying browser that file changed:  /game/initial_system.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.266 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.259 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.2 seconds.[0m
+notifying browser that file changed:  /game/initial_system.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.194 seconds.[0m
+notifying browser that file changed:  /game/initial_system.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.198 seconds.[0m
+notifying browser that file changed:  /game/initial_system.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.194 seconds.[0m
+notifying browser that file changed:  /game/initial_system.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.286 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.103 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.274 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /game/initial_system.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.299 seconds.[0m
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.122 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.27 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.269 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/game/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3138.invoke (compiler.cljc:1344)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1306)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1381)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3582$fn__3583.invoke (closure.clj:478)
+    cljs.closure$eval3534$fn__3535$G__3525__3542.invoke (closure.clj:383)
+    cljs.closure$eval3595$fn__3596.invoke (closure.clj:492)
+    cljs.closure$eval3534$fn__3535$G__3525__3542.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1674)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15786.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15832.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15783.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15586.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15592.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15592.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15595.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15589.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15607.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15693$state_machine__9517__auto____15694$fn__15699.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15693$state_machine__9517__auto____15694.invoke (auto.clj:178)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.29 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var cljs.core.async/go-loop at line 106 src/game/core.cljs
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/game/core.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3138.invoke (compiler.cljc:1344)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1306)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1381)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3582$fn__3583.invoke (closure.clj:478)
+    cljs.closure$eval3534$fn__3535$G__3525__3542.invoke (closure.clj:383)
+    cljs.closure$eval3595$fn__3596.invoke (closure.clj:492)
+    cljs.closure$eval3534$fn__3535$G__3525__3542.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1674)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15786.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15832.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15783.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15586.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15592.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15592.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15595.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15589.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15607.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15693$state_machine__9517__auto____15694$fn__15699.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15693$state_machine__9517__auto____15694.invoke (auto.clj:178)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.244 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.266 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.294 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.26 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.257 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.274 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.269 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.263 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.303 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.273 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: EOF while reading, starting at line 104 and column 1 on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 129, column 1
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: EOF while reading, starting at line 104 and column 1 on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 129, column 1
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: EOF while reading, starting at line 104 and column 1 on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 129, column 1
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+ERROR: EOF while reading, starting at line 104 and column 1 on file /Users/mdubie/Developer/orbits/src/game/core.cljs, line 129, column 1
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: No such var: mechanics/update-planet-position, compiling:(game/mechanics_test.cljc:37:10)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$TryExpr$Parser.parse (Compiler.java:2261)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.121 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.307 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.262 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.281 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.278 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.275 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.307 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.301 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.276 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.271 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/user-input-loop! at line 131 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.324 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.302 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.301 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.339 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.314 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.311 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.309 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.302 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.296 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.299 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.306 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector in game.mechanics:146, compiling:(game/mechanics.cljc:146:3)
+ at clojure.lang.Compiler.analyzeSeq (Compiler.java:6730)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+    clojure.lang.Compiler.load (Compiler.java:7227)
+    clojure.lang.RT.loadResourceScript (RT.java:371)
+    clojure.lang.RT.loadResourceScript (RT.java:362)
+    clojure.lang.RT.load (RT.java:446)
+    clojure.lang.RT.load (RT.java:412)
+    clojure.core$load$fn__5448.invoke (core.clj:5866)
+    clojure.core$load.doInvoke (core.clj:5865)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector in game.mechanics:146, compiling:(game/mechanics.cljc:146:3)
+ at clojure.lang.Compiler.analyzeSeq (Compiler.java:6730)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+    clojure.lang.Compiler.load (Compiler.java:7227)
+    clojure.lang.RT.loadResourceScript (RT.java:371)
+    clojure.lang.RT.loadResourceScript (RT.java:362)
+    clojure.lang.RT.load (RT.java:446)
+    clojure.lang.RT.load (RT.java:412)
+    clojure.core$load$fn__5448.invoke (core.clj:5866)
+    clojure.core$load.doInvoke (core.clj:5865)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector in game.mechanics:146, compiling:(game/mechanics.cljc:146:3)
+ at clojure.lang.Compiler.analyzeSeq (Compiler.java:6730)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+    clojure.lang.Compiler.load (Compiler.java:7227)
+    clojure.lang.RT.loadResourceScript (RT.java:371)
+    clojure.lang.RT.loadResourceScript (RT.java:362)
+    clojure.lang.RT.load (RT.java:446)
+    clojure.lang.RT.load (RT.java:412)
+    clojure.core$load$fn__5448.invoke (core.clj:5866)
+    clojure.core$load.doInvoke (core.clj:5865)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.IllegalArgumentException: let requires an even number of forms in binding vector in game.mechanics:146, compiling:(game/mechanics.cljc:146:3)
+ at clojure.lang.Compiler.analyzeSeq (Compiler.java:6730)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler.eval (Compiler.java:6786)
+    clojure.lang.Compiler.load (Compiler.java:7227)
+    clojure.lang.RT.loadResourceScript (RT.java:371)
+    clojure.lang.RT.loadResourceScript (RT.java:362)
+    clojure.lang.RT.load (RT.java:446)
+    clojure.lang.RT.load (RT.java:412)
+    clojure.core$load$fn__5448.invoke (core.clj:5866)
+    clojure.core$load.doInvoke (core.clj:5865)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.ExceptionInfo: failed compiling file:src/game/mechanics.cljc
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.compiler$compile_file$fn__3138.invoke (compiler.cljc:1344)
+    cljs.compiler$compile_file.invoke (compiler.cljc:1306)
+    cljs.compiler$compile_root.invoke (compiler.cljc:1381)
+    cljs.closure$compile_dir.invoke (closure.clj:438)
+    cljs.closure$eval3582$fn__3583.invoke (closure.clj:478)
+    cljs.closure$eval3534$fn__3535$G__3525__3542.invoke (closure.clj:383)
+    cljs.closure$eval3595$fn__3596.invoke (closure.clj:492)
+    cljs.closure$eval3534$fn__3535$G__3525__3542.invoke (closure.clj:383)
+    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
+    cljs.closure$build.invoke (closure.clj:1674)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15786.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15832.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15783.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15586.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15592.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15592.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15595.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15589.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15607.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15693$state_machine__9517__auto____15694$fn__15699.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15693$state_machine__9517__auto____15694.invoke (auto.clj:178)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: No such var: mechanics/update-planet-position, compiling:(game/mechanics_test.cljc:37:10)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$TryExpr$Parser.parse (Compiler.java:2261)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.125 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.307 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.104 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.287 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.272 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.103 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.276 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.303 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.309 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.31 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.3 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.312 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.256 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.272 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.29 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.214 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.215 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.304 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.277 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Wrong number of args (3) passed to game.common/b1+b2->a at line 31 src/game/mechanics.cljc
+[32mSuccessfully compiled "resources/public/game.js" in 0.318 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.222 seconds.[0m
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.198 seconds.[0m
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.398 seconds.[0m
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.348 seconds.[0m
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.259 seconds.[0m
+notifying browser that file changed:  /game/core.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.132 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Wrong number of args (0) passed to game.core/start-bench-mark at line 47 src/game/core.cljs
+WARNING: Wrong number of args (0) passed to game.core/end-bench-mark at line 49 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.479 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.459 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.903 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.593 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.44 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.925 seconds.[0m
+notifying browser that file changed:  /game/paint.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 1.181 seconds.[0m
+notifying browser that file changed:  /game/paint.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.139 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.paint/setup-stacked-canvas at line 129 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.274 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.309 seconds.[0m
+notifying browser that file changed:  /game/paint.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to game.paint/draw-system! at line 77 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.25 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Wrong number of args (1) passed to game.paint/draw-system! at line 77 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.246 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.paint/canvas at line 142 src/game/paint.cljs
+WARNING: Use of undeclared Var game.paint/canvas at line 143 src/game/paint.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.345 seconds.[0m
+notifying browser that file changed:  /game/paint.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.265 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.paint/canvas at line 141 src/game/paint.cljs
+WARNING: Use of undeclared Var game.paint/canvas at line 142 src/game/paint.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.345 seconds.[0m
+notifying browser that file changed:  /game/paint.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.32 seconds.[0m
+notifying browser that file changed:  /game/paint.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.247 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.247 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.247 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.396 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: b1+b2->d in this context, compiling:(game/mechanics.cljc:31:11)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3737)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6129)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$LetExpr$Parser.parse (Compiler.java:6179)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6711)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.access$300 (Compiler.java:38)
+    clojure.lang.Compiler$DefExpr$Parser.parse (Compiler.java:577)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6723)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.171 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.244 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.237 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.244 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.31 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.839 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.31 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.34 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.725 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Wrong number of args (3) passed to game.mechanics/b1+b2->a at line 43 src/game/mechanics.cljc
+[32mSuccessfully compiled "resources/public/game.js" in 0.674 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.311 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.271 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.238 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.237 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.31 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.11 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.235 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.248 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.223 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.302 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.291 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.305 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.226 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.312 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.301 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: java.lang.RuntimeException: Unable to resolve symbol: dt in this context, compiling:(game/mechanics.cljc:130:15)
+ at clojure.lang.Compiler.analyze (Compiler.java:6543)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$InvokeExpr.parse (Compiler.java:3791)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6725)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.analyze (Compiler.java:6485)
+    clojure.lang.Compiler$BodyExpr$Parser.parse (Compiler.java:5861)
+    clojure.lang.Compiler$FnMethod.parse (Compiler.java:5296)
+    clojure.lang.Compiler$FnExpr.parse (Compiler.java:3925)
+    clojure.lang.Compiler.analyzeSeq (Compiler.java:6721)
+    clojure.lang.Compiler.analyze (Compiler.java:6524)
+    clojure.lang.Compiler.eval (Compiler.java:6779)
+    clojure.lang.Compiler.load (Compiler.java:7227)
+    clojure.lang.RT.loadResourceScript (RT.java:371)
+    clojure.lang.RT.loadResourceScript (RT.java:362)
+    clojure.lang.RT.load (RT.java:446)
+    clojure.lang.RT.load (RT.java:412)
+    clojure.core$load$fn__5448.invoke (core.clj:5866)
+    clojure.core$load.doInvoke (core.clj:5865)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.308 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.305 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.311 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.303 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.24 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.3 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[31mCompiling "resources/public/game.js" failed.[0m
+clojure.lang.Compiler$CompilerException: clojure.lang.ArityException: Wrong number of args (1) passed to: core/mapv, compiling:(game/mechanics.cljc:181:8)
+ at clojure.lang.Compiler.load (Compiler.java:7239)
+    clojure.lang.RT.loadResourceScript (RT.java:371)
+    clojure.lang.RT.loadResourceScript (RT.java:362)
+    clojure.lang.RT.load (RT.java:446)
+    clojure.lang.RT.load (RT.java:412)
+    clojure.core$load$fn__5448.invoke (core.clj:5866)
+    clojure.core$load.doInvoke (core.clj:5865)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojurescript_build.core$reload_lib.invoke (core.clj:46)
+    clojurescript_build.core$handle_source_reloading_STAR_.invoke (core.clj:139)
+    clojurescript_build.core$handle_source_reloading.invoke (core.clj:145)
+    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:158)
+    figwheel_sidecar.auto_builder$default_build_options$fn__15786.invoke (auto_builder.clj:61)
+    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__15832.invoke (auto_builder.clj:201)
+    figwheel_sidecar.auto_builder$warning$fn__15783.invoke (auto_builder.clj:57)
+    clojurescript_build.auto$time_build$fn__15586.invoke (auto.clj:56)
+    clojurescript_build.auto$after$fn__15592.invoke (auto.clj:65)
+    clojurescript_build.auto$after$fn__15592.invoke (auto.clj:65)
+    clojurescript_build.auto$error$fn__15595.invoke (auto.clj:72)
+    clojurescript_build.auto$before$fn__15589.invoke (auto.clj:61)
+    clojurescript_build.auto$make_conditional_builder$fn__15607.invoke (auto.clj:104)
+    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
+    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
+    clojure.core$reduce.invoke (core.clj:6518)
+    clojure.core$mapv.invoke (core.clj:6616)
+    clojurescript_build.auto$autobuild_STAR_$fn__15693$state_machine__9517__auto____15694$fn__15699.invoke (auto.clj:187)
+    clojurescript_build.auto$autobuild_STAR_$fn__15693$state_machine__9517__auto____15694.invoke (auto.clj:178)
+    clojure.core.async.impl.ioc_macros$run_state_machine.invoke (ioc_macros.clj:940)
+    clojure.core.async.impl.ioc_macros$run_state_machine_wrapped.invoke (ioc_macros.clj:944)
+    clojure.core.async$ioc_alts_BANG_$fn__9696.invoke (async.clj:362)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.308 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.306 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.238 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.238 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.263 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.234 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.241 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.243 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.248 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.235 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.245 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.234 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.238 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.256 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.236 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.232 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.323 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.308 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.239 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.249 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.238 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.405 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.49 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.397 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.261 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.261 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.239 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/go-go-gravity! at line 121 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.241 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.199 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.211 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.205 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.2 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.201 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.203 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.206 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.2 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.214 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.202 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.204 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.202 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.161 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Wrong number of args (2) passed to game.mechanics/update-body-acceleration at line 128 src/game/mechanics.cljc
+WARNING: Wrong number of args (2) passed to game.mechanics/update-body-acceleration at line 180 src/game/mechanics.cljc
+[32mSuccessfully compiled "resources/public/game.js" in 0.331 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.183 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.183 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.19 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.188 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.19 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.193 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.183 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.194 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.324 seconds.[0m
+notifying browser that file changed:  /game/paint.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+WARNING: Use of undeclared Var game.core/state at line 17 src/game/core.cljs
+WARNING: Use of undeclared Var game.core/state at line 21 src/game/core.cljs
+[32mSuccessfully compiled "resources/public/game.js" in 0.284 seconds.[0m
+notifying browser that file changed:  /game/core.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.299 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.151 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.298 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.294 seconds.[0m
+notifying browser that file changed:  /game/mechanics.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.194 seconds.[0m
+notifying browser that file changed:  /game/common.js
+Figwheel: focusing on build-ids (dev)
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.121 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/constants.js
+notifying browser that file changed:  /game/core.js
+notifying browser that file changed:  /game/initial_system.js
+notifying browser that file changed:  /game/paint.js
+notifying browser that file changed:  /game/mechanics.js
+notifying browser that file changed:  /game/mechanics_test.js
+notifying browser that file changed:  /game/common.js
+[0mCompiling "resources/public/game.js" from ["src"]...
+[32mSuccessfully compiled "resources/public/game.js" in 0.297 seconds.[0m
+notifying browser that file changed:  resources/public/out/cljs_deps.js
+notifying browser that file changed:  /game/mechanics.js

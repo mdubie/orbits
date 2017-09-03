@@ -8,7 +8,7 @@
 (defn update-body-position
   [{:keys [v s] :as body} dt]
   (-> body
-      (update :path conj s)
+      (assoc :path s)
       (update :s
               (fn [[sx sy] [vx vy]]
                 [(+ sx (* vx dt))
@@ -23,12 +23,24 @@
              (+ vy (* ay dt))])
           a))
 
+(defn b1+b2->a
+  [{[x1 y1] :s m1 :mass :as b1}
+   {[x2 y2] :s m2 :mass :as b2}]
+  (let [c 0.00001
+        d (common/b1+b2->d b1 b2)
+        grav-f (/ (* c m1 m2)
+                  (Math/pow d 2))
+        [ux uy] [(/ (- x2 x1) d)
+                 (/ (- y2 y1) d)]]
+    [(/ (* ux grav-f) m1)
+     (/ (* uy grav-f) m1)]))
+
 (defn update-body-acceleration
-  [body planets dt]
+  [body planets]
   (assoc body :a
     (->> planets
          (remove #(= body %))
-         (map #(common/b1+b2->a body %))
+         (map #(b1+b2->a body %))
          (common/sum-vectors))))
 
 ;;------------------------------------------------------------
@@ -113,7 +125,7 @@
   [planets dt]
   (->> planets
        (handle-planet-collisions)
-       (mapv #(update-body-acceleration % planets dt))
+       (mapv #(update-body-acceleration % planets))
        (mapv #(update-body-velocity % dt))
        (mapv #(update-body-position % dt))))
 
@@ -142,22 +154,27 @@
 ;;     ;; (println (- p2-actual-velocity-direction p2-target-velocity-direction))))
 
 (defn update-thrust-acceleration
-  [{[ax ay] :a :keys [mass theta a] :as ship} dt]
+  [{[ax ay] :a :keys [thrust mass theta a] :as ship}]
   (let [[ux uy] (common/theta->unit-vector theta)
-        ;;TODO calculate required thrust and theta here
-        thrust 1.0
-        thrust-c 0.000001
+        thrust-c 0.0000000001
         thrust-a [(/ (* ux thrust thrust-c) mass)
                   (/ (* uy thrust thrust-c) mass)]]
-    (-> ship
-        (assoc :thrust thrust)
-        (update :a common/add-vectors thrust-a))))
+    (update ship :a common/add-vectors thrust-a)))
 
+(defn rotate-ship!
+  [ships val]
+  (mapv #(update % :theta + (* val Math/PI 0.03))
+        ships))
+
+(defn thrust-ship!
+  [ships val]
+  (mapv #(assoc % :thrust val)
+        ships))
 
 (defn update-ships
   [ships planets dt]
   (->> ships
-       (mapv #(update-body-acceleration % planets dt))
-       (mapv #(update-thrust-acceleration % dt))
+       (mapv #(update-body-acceleration % planets))
+       (mapv #(update-thrust-acceleration %))
        (mapv #(update-body-velocity % dt))
        (mapv #(update-body-position % dt))))

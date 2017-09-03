@@ -112,9 +112,9 @@
     :a [0.0 0.0]}
    {:uuid 129
     :colors [(rand-color) (rand-color) (rand-color)]
-    :gradient-magnitude (inc (+ 5 (rand-int 10)))
+    :gradient-magnitude (inc (rand-int 4))
     :gradient-direction (rand-int 3)
-    :mass 50000
+    :mass 50
     :path []
     :r 4
     :s [100.0 500.0]
@@ -150,10 +150,10 @@
 
 (def test-ship
   {:uuid 200
-   :mass 0.001
+   :mass 0.0000001
    :theta (* Math/PI 1.2)
    :path []
    :s [375.0 500.0]
    :v [0.0 -1.0]
-   :thrust 1.0
+   :thrust 0
    :a [0.0 0.0]})

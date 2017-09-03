@@ -18,12 +18,14 @@
     (.rotate (+ (- theta) (* Math/PI 0.5)))
     (.translate (- x) (- y))))
 
-(defn size-canvas!
-  "Set the size of the canvas."
-  [id {:keys [width height]}]
-  (let [canvas (by-id id)]
-    (aset canvas "width" width)
-    (aset canvas "height" height)))
+(defn setup-stacked-canvas!
+  [{:keys [width height]}]
+  (let [game-canvas (by-id "game-canvas")
+        path-canvas (by-id "path-canvas")]
+    (aset game-canvas "width" width)
+    (aset game-canvas "height" height)
+    (aset path-canvas "width" width)
+    (aset path-canvas "height" height)))
 
 (defn draw-planet-label!
   [ctx {[x y] :s :keys [r color uuid mass]}]
@@ -54,14 +56,14 @@
     (.stroke)))
 
 (defn draw-path!
-  [ctx {:keys [path]}]
-  (let [[x y] (first path)]
-    (doto ctx
-      (aset "strokeStyle" "#555")
-      (.beginPath)
-      (.moveTo x y)
-      (draw-path-helper path)
-      (.stroke))))
+  [ctx {[x0 y0] :path [x1 y1] :s}]
+  (when x0
+   (doto ctx
+     (aset "strokeStyle" "#555")
+     (.beginPath)
+     (.moveTo x0 y0)
+     (.lineTo x1 y1)
+     (.stroke))))
 
 (defn draw-planet!
   [ctx {[x y] :s gm :gradient-magnitude [c1 c2 c3] :colors :keys [r gradient-direction]}]
@@ -134,21 +136,23 @@
 
 (defn draw-system!
   "Draw the given board to the canvas."
-  [id {:keys [planets ships]}]
-  (let [canvas (by-id id)
-        ctx (.getContext canvas "2d")]
-    (.clearRect ctx 0 0 1000 1000)
+  [{:keys [planets ships]}]
+  (let [game-canvas (by-id "game-canvas")
+        path-canvas (by-id "path-canvas")
+        game-ctx (.getContext game-canvas "2d")
+        path-ctx (.getContext path-canvas "2d")]
+    (.clearRect game-ctx 0 0 1000 1000)
     (doseq [p planets]
-      (draw-planet! ctx p)
-      (draw-planet-label! ctx p)
-      (draw-acceleration-vectors! ctx p)
-      (draw-velocity-vectors! ctx p)
-      (draw-path! ctx p))
+      (draw-planet! game-ctx p)
+      (draw-planet-label! game-ctx p)
+      (draw-acceleration-vectors! game-ctx p)
+      (draw-velocity-vectors! game-ctx p)
+      (draw-path! path-ctx p))
     (doseq [s ships]
-      (draw-ship! ctx s)
-      (draw-ship-thrust! ctx s)
-      (draw-ship-label! ctx s)
-      (draw-acceleration-vectors! ctx s)
-      (draw-velocity-vectors! ctx s)
-      (draw-path! ctx s))
+      (draw-ship! game-ctx s)
+      (draw-ship-thrust! game-ctx s)
+      (draw-ship-label! game-ctx s)
+      (draw-acceleration-vectors! game-ctx s)
+      (draw-velocity-vectors! game-ctx s)
+      (draw-path! path-ctx s))
     nil))

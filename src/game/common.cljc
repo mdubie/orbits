@@ -34,18 +34,6 @@
   (Math/sqrt (+ (Math/pow (- x2 x1) 2)
                 (Math/pow (- y2 y1) 2))))
 
-(defn b1+b2->a
-  [{[x1 y1] :s m1 :mass :as b1}
-   {[x2 y2] :s m2 :mass :as b2}]
-  (let [c 0.00001
-        d (b1+b2->d b1 b2)
-        grav-f (/ (* c m1 m2)
-                  (Math/pow d 2))
-        [ux uy] [(/ (- x2 x1) d)
-                 (/ (- y2 y1) d)]]
-    [(/ (* ux grav-f) m1)
-     (/ (* uy grav-f) m1)]))
-
 (defn p1+p2->collision?
   [{r1 :r :as p1}
    {r2 :r :as p2}]
