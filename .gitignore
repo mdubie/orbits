@@ -2,7 +2,6 @@ pom.xml
 *jar
 /lib/
 /classes/
-/out/
 /target/
 .lein-deps-sum
 .lein-repl-history
@@ -12,9 +11,6 @@ pom.xml
 
 /.repl
 /.nrepl-port
-
-/resources/public/out/
-/resources/public/game.js
 
 .DS_Store
 
